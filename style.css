@@ -698,9 +698,6 @@ background-color: var(--main-color);
   width: 240px;
   height: 320px;
   background: var(--img);
-  background-size: contain; /* Ensure the entire image is visible */
-  background-repeat: no-repeat; /* Prevent the image from repeating */
-  background-position: center; /* Center the image within the container */
   border-radius: 20px;
   transition: 0.5s;
   box-shadow: var(--neon-box-shadow);
