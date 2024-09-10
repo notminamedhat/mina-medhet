@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css" integrity="sha512-LDo/zq1wxk7v7JIsYBtZB2KHZWhXyEX4Qf5zKLh0a0OS8akYUbcu+l0n3Xik4cF0sEV7JkH+jOw3NFrbKHtAsg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Your Page Title</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Mina <span>Medhat</span></a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+        
+        <nav class="navbar">
+            <a href="#home" class="active" >Home</a>
+            <a href="#about  "  >Why me</a>
+            <a href="#service" >Service</a>
+            <a href="#skills" >Skill</a>
+            <a href="#Portfolio" >Portfolio</a>
+            <a href="#contact" >Contact</a>
+        </nav>
+    </header>
+    
+    <section class="home" id="home">
+        <div class="home-content scroll-right">
+            <h1>Hi, It's <span>Mina</span></h1>
+            <h3 class="text-animation">I'm a <span class="sec-text"></span></h3>
+            <p>I'm Mina Medhat, currently enrolled at Alexandria University, where I am diligently pursuing a degree in Data Science, with an expected graduation in 2026. Beyond my academic endeavors, I showcase strong proficiency in web development, having successfully designed functional and visually appealing websites using various programming languages and frameworks. Additionally, I possess a comprehensive understanding of Microsoft 365, employing its diverse suite of tools for enhanced productivity and collaborative endeavors.
+
+                My expertise in data analysis is complemented by my skills in meticulous data preparation, ensuring accuracy and reliability. I am proficient in programming languages like Python, R, and SQL, which enables me to manipulate data and implement sophisticated analytical models effectively. I also have a strong background in data visualization tools such as Power BI and Tableau, transforming complex datasets into visually compelling narratives.</p>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/mina-medhat-moris-290672275/"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/Mina-medhat1/MY-Projects.git"><i class='bx bxl-github'></i></a>
+                <a href="https://www.upwork.com/freelancers/~0125341ee4008045c3"><i class='bx bxl-upwork'></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="https://www.fiverr.com/mina_medhat1?public_mode=true" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+            <div class="home-img scroll-left">
+                <img src="img main.png" alt="">
+            </div>
+       
+    </section>
+   
+    
+    <section class="about" id="about" >
+        <div class="home-img scroll-top">
+            <img src="img1.jpg" alt="">
+        </div>
+        <div class="about-text scroll-bottom">
+            <h2> Why<span>Me</span></h2>
+            <h4>Junior Data Analyst | Excel | Power Bi | SQL | Python </h4>
+            <p>
+                With a strong foundation in Data Science from Alexandria University, I excel in data analysis, visualization, and programming (Python, R, SQL). My expertise in Power BI, Tableau, and RFM analysis transforms complex data into actionable insights. I also bring web development skills and Microsoft 365 mastery, offering a comprehensive approach to data-driven solutions.
+            </p>
+                
+                <a href="https://drive.google.com/file/d/1OFgyNQ15Un0PGyxDvaYxW7URi_VmGxtc/view?usp=sharing" class="btn">See Cv</a>
+        </div>
+        
+    </section>
+    <section class="service" id="service">
+        <div class="main-text scroll-scale">
+            <span>what i will do for you</span>
+            <h2>our services</h2>
+
+        </div>
+      <div class="section-service scroll-bottom">      
+      <div class="services-box">
+        <i class="bx bxs-layer service-icon"></i>
+        <h3>Data Analysis with Python</h3>
+        <p>Utilize Python for in-depth data analysis, including data cleaning, preprocessing, and exploratory analysis. Use techniques such as regression, classification, and clustering to reveal valuable insights. Transform raw data into actionable information, aiding strategic decision-making and optimizing business operations for growth and efficiency.</p>
+        <div class="btn-box-service-btn">  
+            <a href="#" class="btn"   onclick="showPopup(event, 'service1')">Read more</a>
+        </div>
+      </div>
+      <div class="services-box">
+     <i class="bx bxs-layer service-icon"></i>
+     <h3>Dashboard with Power BI</h3>
+     <p>Create interactive and visually compelling dashboards with Power BI. Integrate data from multiple sources to provide real-time updates and custom visualizations. Highlight key metrics and trends with user-friendly designs that facilitate quick, informed decisions. Enhance operational efficiency and strategic planning by presenting clear, actionable insights effectively.</p>
+     <div class="btn-box service-btn">  
+        <a href="#" class="btn" onclick="showPopup(event, 'service2')">Read more</a>
+     </div>
+      </div>
+      <div class="services-box">
+        <i class="bx bxs-layer service-icon"></i>
+        <h3>Customer Segmentation</h3>
+        <p>Conduct detailed customer segmentation using Python methods like RFM analysis and clustering techniques. Identify distinct customer groups based on behavior and characteristics. Visualize insights in Power BI to tailor marketing strategies, improve engagement, and enhance business outcomes.</p>
+        <div class="btn-box service-btn">  
+            <a href="#" class="btn"  onclick="showPopup(event, 'service3')">Read more</a>
+        </div>
+      </div> 
+
+      <div class="services-box">
+        <i class="bx bxs-layer service-icon"></i>
+        <h3>Advanced Web Scraping</h3>
+        <p>Extract critical data from the web with our advanced web scraping services. We handle complex websites and bypass challenging CAPTCHAs to ensure you obtain the data needed for thorough analysis and informed decision-making.</p>
+        <div class="btn-box-service-btn">  
+            <a href="#" class="btn" onclick="showPopup(event, 'service4')">Read more</a>
+        </div>
+    </div>
+    
+
+
+
+       </div>               
+    </section>
+
+
+    <div class="overlay" id="overlay" onclick="hidePopup()"></div>
+
+<div class="popup" id="popup">
+  <div class="popup-content" id="popup-content"></div>
+  <button onclick="hidePopup()">Close</button>
+</div>
+        
+    <section id="skills" class="skills">
+        <div class="heading scroll-scale">
+            <h3>technical and professional</h3>
+
+            <h2><span>My</span> Skills</h2>
+        </div>
+        <div class="skill-main">
+            <div class="skill-left scroll-left">
+                <h3>Technical Skills</h3>
+
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>Python</p>
+                        <p >79%</p> <!-- Added class "percentage" -->
+                    </div>
+                    <div class="bar">
+                        <span class="python"></span><!-- Added class "counter" -->
+                    </div>
+                </div>
+
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>SQL</p>
+                        <p >81%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="sql"></span>
+                    </div>
+                </div>
+
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>Power BI</p>
+                        <p >87%</p> 
+                    </div>
+                    <div class="bar">
+                        <span class="powerbi"></span> 
+                    </div>
+                </div>
+
+
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>FrontEnd(Html| Css |JS)This Help in Power BI project design</p>
+                        <p >75%</p> <!-- Added class "percentage" -->
+                    </div>
+                    <div class="bar">
+                        <span class="css"></span><!-- Added class "counter" -->
+                    </div>
+
+                </div>
+            </div>
+            <div class="skill-right scroll-right">
+                <h3>Professional Skills</h3>
+                    <div class="professional">
+                        <div class="box">
+                            <div class="circle" data-dots="80" data-percent="72"></div>
+                            <div class="text">
+                                <big>72%</big>
+                                <small>Adaptability</small>
+                            </div>
+                        </div>
+
+
+                        <div class="box">
+                            <div class="circle" data-dots="80" data-percent="79">
+
+                            </div>
+                            <div class="text">
+                                <big>79%</big>
+                                <small>Team Collaboration</small>
+                            </div>
+                        </div>
+
+
+
+                        <div class="box">
+                            <div class="circle" data-dots="80" data-percent="90">
+
+                            </div>
+                            <div class="text">
+                                <big>90%</big>
+                                <small>Problem-Solving</small>
+                            </div>
+                        </div>
+
+
+                        <div class="box">
+                            <div class="circle" data-dots="80" data-percent="80">
+
+                            </div>
+                            <div class="text">
+                                <big>80%</big>
+                                <small>Communication</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+            </section>
+<section class="portfolio" id="portfolio">
+    <div class="all">
+        <div class="heading scroll-scale">
+            <h2><span>My</span> portfolio</h2>
+        </div>
+        <div class="filter_buttons scroll-right">
+           <button class="btn1" data-name="all">All</button>
+           <button  class="btn" data-name="powerbi">Power Bi</button>
+           <button class="btn"data-name="python">Python</button>
+        </div>
+      
+<div class="container">
+  <div class="slider scroll-left">
+    <div class="slides" data-name="powerbi" style="--img: url('image/img 1.png')">
+        <div class="content">
+            <div class="author">Mina</div>
+            <div class="title">Hr dashboard</div>
+            <div class="topic">powerbi</div>
+            <div class="des">
+                developed an HR dashboard from start to finish, beginning with data cleaning and preparation using Python. I then created visualizations in Power BI to track key HR metrics, such as employee demographics, performance, and turnover rates. The dashboard is interactive, user-friendly, and provides valuable insights to support decision-making in HR management.
+            </div>
+            <div class="skills_icon">
+                <h2>tools:</h2>
+                <img src="icon skills/figma.png" alt="">
+                <img src="icon skills/sql.png" alt="">
+                <img src="icon skills/New_Power_BI_Logo.svg.png" alt="">
+            </div>
+            <div class="btn1">
+                <a href="#" class="read-more" data-target="pop2">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="slides" data-name="powerbi" style="--img: url('image/img 2.png')">
+        <div class="content">
+            <div class="author">Mina</div>
+            <div class="title">RFM dashboard</div>
+            <div class="topic">power bi</div>
+            <div class="des">I led the entire data analysis process, from data cleaning and exploratory analysis using Pandas and Python to creating an interactive Power BI dashboard. I performed RFM analysis for customer segmentation and crafted a clear data narrative to ensure actionable insights for stakeholders.</div>
+            <div class="skills_icon">
+                <h2>tools:</h2>
+                <img src="icon skills/figma.png" alt="">
+                <img src="icon skills/png-transparent-python-logo.png" alt="">
+                <img src="icon skills/New_Power_BI_Logo.svg.png" alt="">
+            </div>
+            <div class="btn1">
+                <a href="#" class="read-more" data-target="pop1">Read More</a>
+            </div>
+        </div>
+    </div>
+    <div class="slides" data-name="python" style="--img: url('image/img 3.jfif')">
+        <div class="content">
+            <div class="author">Mina </div>
+            <div class="title">walmart data analysis</div>
+            <div class="topic">Python</div>
+            <div class="des">
+                I conducted a complete analysis of Walmart data, starting with data cleaning and preparation using Pandas. I then performed exploratory data analysis (EDA) to uncover trends and insights, such as sales patterns and product performance. Finally, I visualized the results in an interactive dashboard, providing clear and actionable insights to help optimize business strategies.
+            </div>
+            <div class="skills_icon">
+                <h2>tools:</h2>
+                <img src="icon skills/png-transparent-python-logo.png" alt="">
+            </div>
+            <div class="btn1">
+                <a href="#" class="read-more" data-target="pop3">Read More</a>           
+             </div>
+        </div>
+    </div>
+    <div class="slides"  data-name="powerbi" style="--img: url('image/img 4.jpg')">
+        <div class="content">
+            <div class="author">Mina </div>
+            <div class="title">Sales dashboard</div>
+            <div class="topic">PowerBI</div>
+            <div class="des">
+                <!-- lorem 50 -->
+                I'm thrilled to share my latest project—a fully interactive sales dashboard built in Power BI, with a sleek design crafted in Figma. I dove deep into data cleaning, modeling, and KPI development to bring this vision to life.            </div>
+            <div class="skills_icon">
+                <h2>tools:</h2>
+                <img src="icon skills/figma.png" alt="">
+                <img src="icon skills/sql.png" alt="">
+                <img src="icon skills/New_Power_BI_Logo.svg.png" alt="">
+                <img src="icon skills/png-transparent-python-logo.png" alt="">
+            </div>
+            <div class="btn1">
+                <a href="#" class="read-more" data-target="pop4">Read More</a>           
+            </div>
+        </div>
+    </div>
+    <div class="slides"  data-name="python" style="--img: url('image/img 5.png')">
+        <div class="content">
+            <div class="author">Mina </div>
+            <div class="title">Data minig project</div>
+            <div class="topic">Python</div>
+            <div class="des">
+                <!-- lorem 50 -->
+                where I analyzed sales data to extract valuable insights that can drive smarter business decisions. By exploring patterns, trends, and relationships within the dataset, I aimed to identify key opportunities for optimizing sales strategies and boosting overall performance.            </div>
+            <div class="skills_icon">
+                <h2>tools:</h2>
+                <img src="icon skills/figma.png" alt="">
+                <img src="icon skills/sql.png" alt="">
+                <img src="icon skills/New_Power_BI_Logo.svg.png" alt="">
+            </div>
+            <div class="btn1">
+                <a href="#" class="read-more" data-target="pop5">Read More</a>           
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="slides"  data-name="Tableau" style="--img: url('image/img 6.png')">
+        <div class="content">
+            <div class="author">Mina </div>
+            <div class="title">Tableau project</div>
+            <div class="topic">Tableau</div>
+            <div class="des">
+                <!-- lorem 50 -->
+                The dashboard I created provides a comprehensive and quick overview of Sales Data. I used Python to clean the data, making sure everything was organized and ready for analysis. 🧹🐍
+
+                I also want to give a big shoutout to Eng. Menna Tarek 🇵🇸, who was a tremendous support during my training.            <div class="skills_icon">
+                <h2>tools:</h2>
+                <img src="icon skills/figma.png" alt="">
+                <img src="icon skills/png-transparent-python-logo.png" alt="">
+                <img src="icon skills/tableau.png" alt="">
+            </div>
+            <div class="btn1">
+                <a href="#" class="read-more" data-target="pop6">Read More</a>           
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+  </div> 
+  <div class="buttons1">
+    <span class="prev"></span>
+    <span class="next"></span>
+  </div> 
+</div>
+</div>
+</section>
+
+
+
+
+
+           
+<section class="contact " id="contact">
+                <h2 class="heading scroll-scale"> Contact <samp>Me</samp></h2>
+ <form action="">
+    <div class="input-group scroll-top" >
+        <div class="input-box">
+            <input type="text" placeholder="full name" >
+            <input type="email" placeholder="email">
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="phone number">
+            <input type="text" placeholder="subject">
+        </div>
+       </div>
+        <div class="input-group-2 scroll-bottom">
+            <textarea name="" id="" cols="30" rows="10" placeholder="your messge"></textarea>
+            <input type="submit" value="send" class="btn">
+        
+    </div>
+
+ </form>
+</section>
+<footer class="footer">
+    <div class="social-icons scroll-left">
+        <a href="https://www.linkedin.com/in/mina-medhat-moris-290672275/"><i class='bx bxl-linkedin' ></i></a>
+        <a href="https://github.com/Mina-medhat1/MY-Projects.git"><i class='bx bxl-github'></i></a>
+        <a href="https://www.upwork.com/freelancers/~0125341ee4008045c3"><i class='bx bxl-upwork'></i></a>
+    </div>
+    <ul class="list scroll-right">
+        <li>
+            <a href="#home" class="active">Home</a>
+
+        </li>
+        
+        <li>
+            <a href="#about  ">Why me</a>
+
+        </li>
+
+        <li>
+            <a href="#portfolio">Portfolio</a>
+        </li>
+
+        <li>
+            <a href="#skills">Skill</a>
+        </li>
+        
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
+    <p class="copyright scroll-scale">
+        @ Mina Medhat | All Rights Reserves
+    </p>
+</footer>
+            <script src="/js.js" ></script>
+
+
+
+
+
+
+
+<div class="pop-template" id="pop1">
+    <div class="navbar1">
+        <div class="navbar-content">
+            PowerBI Project
+        </div>
+        <div class="close-btn1">X</div>
+    </div>
+    <div class="pop-content">
+        <div class="pop-header">
+            <div class="pop-buttons">
+                <span class="close-btn"></span>
+                <span class="minimize-btn"></span>
+                <span class="fullscreen-btn"></span>
+            </div>
+            <div class="pop-title">PowerBI Project</div>
+        </div>
+        <div class="pop-body">
+            <iframe src="https://app.powerbi.com/view?r=eyJrIjoiN2Y3Yzg2MTAtZjliMy00Y2QwLTlmMGYtYjNjNDY0MmQ4YWVhIiwidCI6ImVhZjYyNGM4LWEwYzQtNDE5NS04N2QyLTQ0M2U1ZDc1MTZjZCIsImMiOjh9&embedImagePlaceholder=true"
+            ></iframe>
+        </div>
+        <div class="pop-footer">
+            <div class="description-box">
+                <h2>Business Model</h2>
+                <h1>What I Made in This Project</h1>
+                <p> I managed the entire data analysis process, utilizing a variety of key skills:
+                    🔍 Data Cleaning:
+                    🐼 Pandas: Efficiently handled missing data, duplicates, and outliers.
+                    📊 Data Analysis:
+                    🐍 Python: Leveraged libraries like NumPy and Pandas for statistical analysis and data manipulation.
+                    🔎 Exploratory Data Analysis (EDA): Identified trends, patterns, and correlations within the data.
+                    🧮 RFM Analysis: Performed customer segmentation using RFM (Recency, Frequency, Monetary) analysis to identify high-value customers and optimize marketing strategies.
+                    📈 Power BI: Used these tools for in-depth data visualization and to gain insights.
+                    📈 Dashboard Design:
+                    🖥️ Power BI: Created an interactive and visually appealing dashboard with slicers, filters, and dynamic visuals.
+                    🎨 Data Visualization: Focused on clarity, user experience, and actionable insights.
+                    
+                    📖 Storytelling with Data: Crafted a narrative around the data to make it easy for stakeholders to understand and use.</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="nav-buttons">
+        <button class="nav-btn prev-btn" data-target="pop6"><</button>
+        <button class="nav-btn next-btn" data-target="pop2">></button>
+    </div>
+</div>
+
+<div class="pop-template" id="pop2">
+    <div class="navbar1">
+        <div class="navbar-content">
+            PowerBI Project
+        </div>
+        <div class="close-btn1">X</div>
+    </div>
+    <div class="pop-content">
+        <div class="pop-header">
+            <div class="pop-buttons">
+                <span class="close-btn"></span>
+                <span class="minimize-btn"></span>
+                <span class="fullscreen-btn"></span>
+            </div>
+            <div class="pop-title">PowerBI Project</div>
+        </div>
+        <div class="pop-body">
+            <iframe src="https://app.powerbi.com/view?r=eyJrIjoiM2RiZGIwYmEtMWRhYy00ZDkwLWE0M2QtMTNiZDM0Nzg1MDg5IiwidCI6ImVhZjYyNGM4LWEwYzQtNDE5NS04N2QyLTQ0M2U1ZDc1MTZjZCIsImMiOjh9&pageName=ReportSectione5726463bbb533723265"
+            ></iframe>
+        </div>
+        <div class="pop-footer">
+            <div class="description-box">
+                <h2>Hr dashboard</h2>
+                <h1>What I Made in This Project</h1>
+                <p> developed an HR dashboard from start to finish, beginning with data cleaning and preparation using Python. I then created visualizations in Power BI to track key HR metrics, such as employee demographics, performance, and turnover rates. The dashboard is interactive, user-friendly, and provides valuable insights to support decision-making in HR management.</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="nav-buttons">
+        <button class="nav-btn prev-btn" data-target="pop1"><</button>
+        <button class="nav-btn next-btn" data-target="pop3">></button>
+    </div>
+</div>
+
+
+
+
+
+<div class="pop-template" id="pop3">
+    <div class="navbar1">
+        <div class="navbar-content">
+            Python project
+        </div>
+        <div class="close-btn1">X</div>
+    </div>
+    <div class="pop-content">
+        <div class="pop-header">
+            <div class="pop-buttons">
+                <span class="close-btn"></span>
+                <span class="minimize-btn"></span>
+                <span class="fullscreen-btn"></span>
+            </div>
+            <div class="pop-title">Python analysis Project</div>
+        </div>
+        <div class="pop-body">
+            <iframe src="data analysis.html"
+            ></iframe>
+        </div>
+        <div class="pop-footer">
+            <div class="description-box">
+                <h2>Python  data analysis</h2>
+                <h1>What I Made in This Project</h1>
+                <p>I conducted a complete analysis of Walmart data, starting with data cleaning and preparation using Pandas. I then performed exploratory data analysis (EDA) to uncover trends and insights, such as sales patterns and product performance. Finally, I visualized the results in an interactive dashboard, providing clear and actionable insights to help optimize business strategies.
+
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="nav-buttons">
+        <button class="nav-btn prev-btn" data-target="pop2"><</button>
+        <button class="nav-btn next-btn" data-target="pop4">></button>
+    </div>
+</div>
+
+
+
+
+<div class="pop-template" id="pop4">
+    <div class="navbar1">
+        <div class="navbar-content">
+            Python project
+        </div>
+        <div class="close-btn1">X</div>
+    </div>
+    <div class="pop-content">
+        <div class="pop-header">
+            <div class="pop-buttons">
+                <span class="close-btn"></span>
+                <span class="minimize-btn"></span>
+                <span class="fullscreen-btn"></span>
+            </div>
+            <div class="pop-title">sales analysis project</div>
+        </div>
+        <div class="pop-body">
+            <iframe src="https://app.powerbi.com/view?r=eyJrIjoiNzkzNzNiMDItZDk4Ni00NDk1LWE2YjgtN2FiM2VjMGQzYzRhIiwidCI6ImVhZjYyNGM4LWEwYzQtNDE5NS04N2QyLTQ0M2U1ZDc1MTZjZCIsImMiOjh9&pageName=ReportSectione5726463bbb533723265"
+            ></iframe>
+        </div>
+        <div class="pop-footer">
+            <div class="description-box">
+                <h2>powerbi analysis</h2>
+                <h1>What I Made in This Project</h1>
+                <p>
+
+                    🌟 I'm thrilled to share my latest project—a fully interactive sales dashboard built in Power BI, with a sleek design crafted in Figma. I dove deep into data cleaning, modeling, and KPI development to bring this vision to life.
+                    📊 The dashboard showcases everything from total sales and profit margins to detailed breakdowns by product and region. It's been an exciting journey mastering both the technical and creative sides of this project.                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="nav-buttons">
+        <button class="nav-btn prev-btn" data-target="pop3"><</button>
+        <button class="nav-btn next-btn" data-target="pop5">></button>
+    </div>
+</div>
+
+
+
+
+<div class="pop-template" id="pop5">
+    <div class="navbar1">
+        <div class="navbar-content">
+            Python project
+        </div>
+        <div class="close-btn1">X</div>
+    </div>
+    <div class="pop-content">
+        <div class="pop-header">
+            <div class="pop-buttons">
+                <span class="close-btn"></span>
+                <span class="minimize-btn"></span>
+                <span class="fullscreen-btn"></span>
+            </div>
+            <div class="pop-title">Data Mining Project</div>
+        </div>
+        <div class="pop-body">
+            <iframe src="data minig.html"
+            ></iframe>
+        </div>
+        <div class="pop-footer">
+            <div class="description-box">
+                <h2>Python  data analysis</h2>
+                <h1>What I Made in This Project</h1>
+                <p>
+                    where I delved into sales data to extract actionable insights that can drive smarter business decisions. This project involved several key steps:
+
+                    🔍 Data Cleaning: I meticulously cleaned and prepared the dataset, ensuring accuracy and consistency for reliable analysis.
+                    
+                    📊 Exploratory Data Analysis (EDA): Through comprehensive EDA, I explored patterns, trends, and relationships within the data to uncover hidden insights.
+                    
+                    📈 Data Mining Algorithms: Leveraging advanced data mining algorithms, I identified key opportunities for optimizing sales strategies and enhancing overall business performance.
+                    
+                    The insights from this project are designed to empower business analysts and domain experts to make data-driven decisions that propel the company forward.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="nav-buttons">
+        <button class="nav-btn prev-btn" data-target="pop4"><</button>
+        <button class="nav-btn next-btn" data-target="pop6">></button>
+    </div>
+</div>
+
+
+<div class="pop-template" id="pop6">
+    <div class="navbar1">
+        <div class="navbar-content">
+            Tableau project
+        </div>
+        <div class="close-btn1">X</div>
+    </div>
+    <div class="pop-content">
+        <div class="pop-header">
+            <div class="pop-buttons">
+                <span class="close-btn"></span>
+                <span class="minimize-btn"></span>
+                <span class="fullscreen-btn"></span>
+            </div>
+            <div class="pop-title">Tableau Project</div>
+        </div>
+        <div class="pop-body">
+            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7234210097210564609"allowfullscreen="" title="Embedded post"></iframe>
+        </div>
+        <div class="pop-footer">
+            <div class="description-box">
+                <h2>Tableau analysis</h2>
+                <h1>What I Made in This Project</h1>
+                <p>
+                    The dashboard I created provides a comprehensive and quick overview of Sales Data. I used Python to clean the data, making sure everything was organized and ready for analysis. 🧹🐍
+
+                    I also want to give a big shoutout to Eng. Menna Tarek 🇵🇸, who was a tremendous support during my training.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="nav-buttons">
+        <button class="nav-btn prev-btn" data-target="pop5"><</button>
+        <button class="nav-btn next-btn" data-target="pop1">></button>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
