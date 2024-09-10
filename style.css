@@ -697,6 +697,9 @@ background-color: var(--main-color);
   transform: translateY(-50%);
   width: 240px;
   height: 320px;
+  background-size: cover; /* Ensure the entire image is visible */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center; /* Center the image within the container */
   background: var(--img);
   border-radius: 20px;
   transition: 0.5s;
