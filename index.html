@@ -1006,30 +1006,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-// Disable right-click context menu
-document.addEventListener('contextmenu', function(event) {
-    event.preventDefault();
-});
-
-// Disable F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U, and other keys
-document.addEventListener('keydown', function(event) {
-    // F12
-    if (event.key === 'F12') {
-        event.preventDefault();
-    }
-
-    // Ctrl+Shift+I or Ctrl+Shift+J or Ctrl+U
-    if (event.ctrlKey && (event.shiftKey && (event.key === 'I' || event.key === 'J') || event.key === 'U')) {
-        event.preventDefault();
-    }
-
-    // Ctrl+S or Ctrl+P (to disable Save and Print)
-    if (event.ctrlKey && (event.key === 'S' || event.key === 'P')) {
-        event.preventDefault();
-    }
-});
-
-
 
 
 </script>
