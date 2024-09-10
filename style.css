@@ -708,6 +708,7 @@ background-color: var(--main-color);
   justify-content: flex-start;
   align-items: flex-end;
 }
+
 .slider .slides:nth-child(1),
 .slider .slides:nth-child(2){
   position: absolute;
