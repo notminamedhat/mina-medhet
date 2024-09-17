@@ -1353,8 +1353,12 @@ left: 0;
 @media (max-width:600px)  {
       .home{
     flex-direction: column-reverse;
-    margin:none;
+    margin:0;
   }
+        .container {
+        width: -webkit-fill-available;
+        transform: translateX(-3rem);
+    }
 }
 
 
