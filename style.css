@@ -1624,13 +1624,6 @@ left: 0;
     max-width: 80vw;
     left: 2%;
     transition: 0.25s;
-    transition-delay: 0s;
-    transform: translateY(40px);
-    z-index: 100;
-    color: #fff;
-    opacity: 0;
-    text-shadow: 0 5px 10px #0004;
-    padding: 10px;
 }
 
         .slider .slides:nth-child(1), .slider .slides:nth-child(2) {
